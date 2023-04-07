@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100&display=swap');
+
+body{
+    background-color: black;
+}
+.destaque{
+    color: rgb(11, 205, 253);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+    
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho-menu-link{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 299px;
+    height: 29px;
+    left: 380px;
+    top: 67px;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+hr{
+    width:"100%"; 
+   
+}
+.box{
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.texto{
+    display: flex;
+    gap: 40px;
+    text-align: justify;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+   
+}
+
+.imagem{
+    margin-left: 30px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.titulo{
+    font-family: 'KronaOne', cursive;
+    
+}
+.titulo_destaque{
+    color: rgb(7, 164, 212);
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 0px 40px;
+    
+}
+
+button{
+    border: 0px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    border: 2px solid #22D4FD;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(5, 73, 94); /* Green */
+  color: white;
+}
+
+h2{
+    text-align: center;
+}
+h4{
+    top: 400px;
+}
+
+.rodape {
+    color:#000000;
+    background-color: #22D4FD;
+    padding: 20px;
+    text-align: center;
+    font-family:'Montserrat',sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 25px;
+   }
